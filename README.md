@@ -26,7 +26,7 @@
     }
     ```
 
-- [] Deve ser possível atualizar um title de um TODO
+- [x] Deve ser possível atualizar um title e deadline de um TODO
 - [] Deve ser possível mudar o status do done
 - [] Deve ser possível excluir um TODO
 - [] Deve ser possível excluir um usuário
@@ -35,5 +35,6 @@
 
 ## Regras de negócio
 
-- [x] Não deve ser possível cadastrar um usuário com um username já existente,
+- [x] Não deve ser possível cadastrar um usuário com um username já existente
+- [x] Não deve ser possível atualizar um TODO inexistente
 - [] Não deve ser possível excluir um usuário inexistente
