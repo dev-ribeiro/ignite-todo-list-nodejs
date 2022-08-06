@@ -27,9 +27,8 @@
     ```
 
 - [x] Deve ser possível atualizar um title e deadline de um TODO
-- [] Deve ser possível mudar o status do done
-- [] Deve ser possível excluir um TODO
-- [] Deve ser possível excluir um usuário
+- [x] Deve ser possível mudar o status do done
+- [x] Deve ser possível excluir um TODO
 
 ***
 
@@ -37,4 +36,4 @@
 
 - [x] Não deve ser possível cadastrar um usuário com um username já existente
 - [x] Não deve ser possível atualizar um TODO inexistente
-- [] Não deve ser possível excluir um usuário inexistente
+- [x] Não deve ser possível deletar um TODO inexistente
