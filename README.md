@@ -2,7 +2,7 @@
 
 ## Requisitos
 
-- [] Deve ser possível cadastrar o nome e username na seguinte estrutura:
+- [x] Deve ser possível cadastrar o nome e username na seguinte estrutura:
 
     ```js
         { 
@@ -26,7 +26,6 @@
     }
     ```
 
-- [] Deve ser possível alterar o nome de um usuário
 - [] Deve ser possível atualizar um title de um TODO
 - [] Deve ser possível mudar o status do done
 - [] Deve ser possível excluir um TODO
@@ -36,5 +35,5 @@
 
 ## Regras de negócio
 
-- [] Não deve ser possível cadastrar um usuário com um username já existente,
+- [x] Não deve ser possível cadastrar um usuário com um username já existente,
 - [] Não deve ser possível excluir um usuário inexistente

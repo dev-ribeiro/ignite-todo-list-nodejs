@@ -17,11 +17,29 @@ function checksExistsUserAccount(request, response, next) {
 
   if (!user) { return response.status(400).json({ error: "User not found." }) };
 
+  request.username = user.username;
+
   return next()
 }
 
-app.post('/users', checksExistsUserAccount, (request, response) => {
+app.post('/users', (request, response) => {
+
+  const { name, username } = request.body;
+
+  const usernameAlreadyExist = users.some((user) => user.username == username);
   
+  if (usernameAlreadyExist) { return response.status(406).json({ error: "Username already exists." }) }
+
+  const createdUser = {
+    id: uuidv4(),
+    name,
+    username,
+    todos: []
+  }
+
+  users.push(createdUser)
+
+  return response.status(201).json({ msg: "User registred!" })
 });
 
 app.get('/todos', checksExistsUserAccount, (request, response) => {
