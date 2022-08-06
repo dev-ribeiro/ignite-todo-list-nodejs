@@ -13,8 +13,8 @@
         }
     ```
 
-- [] Deve ser possível listar os TODOS de cada usuário (username passado no Headers)
-- [] Deve ser possível criar um TODO, com as seguintes especificações:
+- [x] Deve ser possível listar os TODOS de cada usuário (username passado no Headers)
+- [x] Deve ser possível criar um TODO, com as seguintes especificações:
 
     ```js
     {
